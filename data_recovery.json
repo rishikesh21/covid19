@@ -1,0 +1,159 @@
+[
+    {
+        "categorie": "china",
+        "values": [
+            {
+                "value": 80,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 5,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "singapore",
+        "values": [
+            {
+                "value": 46,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 0,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "oman",
+        "values": [
+            {
+                "value": 41,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 0,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "thailand",
+        "values": [
+            {
+                "value": 31,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 1,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "bahrain",
+        "values": [
+            {
+                "value": 28,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 0,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "japan",
+        "values": [
+            {
+                "value": 14,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 3,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "india",
+        "values": [
+            {
+                "value": 12,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 2,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "malaysia",
+        "values": [
+            {
+                "value": 10,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 0,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "italy",
+        "values": [
+            {
+                "value": 9,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 7,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "spain",
+        "values": [
+            {
+                "value": 7,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 4,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "sri lanka",
+        "values": [
+            {
+                "value": 6,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 0,
+                "rate": "death percentage"
+            }
+        ]
+    },
+    {
+        "categorie": "uk",
+        "values": [
+            {
+                "value": 2,
+                "rate": "recovery_percentage"
+            },
+            {
+                "value": 2,
+                "rate": "death percentage"
+            }
+
+        ]
+    }
+]
