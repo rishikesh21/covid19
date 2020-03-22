@@ -3,7 +3,7 @@
 
 <head>
     <meta charset='utf-8' />
-    <title>Simple Bar chart</title>
+    <title>Top Confirmed Cases</title>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <style>
         body {
@@ -36,33 +36,26 @@
     <div id="graphic"></div>
 
     <script>
+    //the top most countries having the confirmed cases
         var data = [{
-                "name": "Apples",
-                "value": 20,
+                "name": "China",
+                "value": 67790,
         },
             {
-                "name": "Bananas",
-                "value": 12,
+                "name": "Italy",
+                "value": 21157,
         },
             {
-                "name": "Grapes",
-                "value": 19,
+                "name": "Iran",
+                "value": 12729,
         },
             {
-                "name": "Lemons",
-                "value": 5,
+                "name": "South Korea",
+                "value": 8086,
         },
             {
-                "name": "Limes",
-                "value": 16,
-        },
-            {
-                "name": "Oranges",
-                "value": 26,
-        },
-            {
-                "name": "Pears",
-                "value": 30,
+                "name": "Spain",
+                "value": 6391,
         }];
 
         //sort bars based on value

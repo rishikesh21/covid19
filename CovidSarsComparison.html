@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
+<title>Covid-19 Sars Comparison</title>
+</head>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <style>
 
@@ -47,7 +49,6 @@ body {
 </select>
 
 <svg id="chart" width="850" height="410"></svg>
-//display the Comaparison between the sars and covid 19
 <script>
 
 d3.csv("covid_sars_comparison.csv").then(d => chart(d))
@@ -108,10 +109,10 @@ function chart(data) {
 		.x(d => x(d.date))
 		.y(d => y(d.degrees));
 
-	svg.append("g")
-		.attr("class","x-axis")
-		.attr("transform", "translate(0," + (height - margin.bottom) + ")")
-		.call(d3.axisBottom(x).tickFormat(d3.timeFormat("%b")));
+	// svg.append("g")
+	// 	.attr("class","x-axis")
+	// 	.attr("transform", "translate(0," + (height - margin.bottom) + ")")
+	// 	.call(d3.axisBottom(x).tickFormat(d3.timeFormat("%b")));
 
 	svg.append("g")
 		.attr("class", "y-axis")
